@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(pic/wp629505.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+}        
+
+ul{
+    margin-top: -1%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(12, 12, 11);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: brown;
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .boy{
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    color: #000; 
+    font-size: 40px;
+    transition: .4s ease;
+    text-align: center;
+    transition: .4s ease;
+    
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: brown;
+}
+
+.footer-contact, .footer-social {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-contact ul, .footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul li, .footer-social ul li {
+    margin: 10px 0;
+}
+
+.footer-contact , .footer-social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover, .footer-social a:hover {
+    text-decoration: underline;
+}
+
+
